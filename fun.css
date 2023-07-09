@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* body{
+    margin: 0;
+    background: #2a2734;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fefefe;
+}
+
+.container{
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 1000px;
+}
+
+.carousel{
+    /* position: absolute;
+    width: 100%;
+    height: 100%; /
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    animation: rotate360 20s infinite forwards linear;
+}
+
+.image{
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    margin: auto;
+    font-size: 4rem;
+}
+
+@keyframes rotate360{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(-360deg);
+    }
+}
+
+
+.image:nth-child(1){
+    background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=400);
+    transform:rotateY(0deg) translateZ(430px);
+}
+
+.image:nth-child(2){
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=600);
+    transform:rotateY(60deg) translateZ(430px);
+}
+
+.image:nth-child(3){
+    background-image: url(https://images.pexels.com/photos/716398/pexels-photo-716398.jpeg?auto=compress&cs=tinysrgb&w=600);
+    transform:rotateY(120deg) translateZ(430px);
+}
+
+.image:nth-child(4){
+    background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=600);
+    transform:rotateY(180deg) translateZ(430px);
+}
+
+.image:nth-child(5){
+    background-image: url(https://images.pexels.com/photos/604684/pexels-photo-604684.jpeg?auto=compress&cs=tinysrgb&w=600);
+    transform:rotateY(240deg) translateZ(430px);
+}
+
+.image:nth-child(6){
+    background-image: url(https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=600);
+    transform:rotateY(300deg) translateZ(430px);
+} */
+
+body{
+    margin: 0;
+    background: #2a2734;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fefefe;
+}
+
+.container{
+    position :relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 1000px; 
+}
+.carousel{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transform-style: preserve-3d; 
+   animation: rotate360 20s forwards infinite linear;
+}
+.image{
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+@keyframes rotate360 {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(-360deg);
+    }
+}
+
+
+.image:nth-child(1){
+    background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=400);
+    transform:rotateY(0deg) translateZ(430px);
+}
+
+.image:nth-child(2){
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=600);
+    transform:rotateY(60deg) translateZ(430px);
+}
+
+.image:nth-child(3){
+    background-image: url(https://images.pexels.com/photos/716398/pexels-photo-716398.jpeg?auto=compress&cs=tinysrgb&w=600);
+    transform:rotateY(120deg) translateZ(430px);
+}
+
+.image:nth-child(4){
+    background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=600);
+    transform:rotateY(180deg) translateZ(430px);
+}
+
+.image:nth-child(5){
+    background-image: url(https://images.pexels.com/photos/604684/pexels-photo-604684.jpeg?auto=compress&cs=tinysrgb&w=600);
+    transform:rotateY(240deg) translateZ(430px);
+}
+
+.image:nth-child(6){
+    background-image: url(https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=600);
+    transform:rotateY(300deg) translateZ(430px);
+}
